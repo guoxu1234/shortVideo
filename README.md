@@ -6,6 +6,6 @@
       @Override  
     protected void onActivityResult(int requestCode, int resultCode, Intent intent) {  
         if (requestCode == REQUEST_VIDEO_CAPTURE && resultCode == RESULT_OK) {  
-            Uri videoUri = intent.getData();  
-            Log.e(TAG, "videoUri：" + videoUri);  
+        Uri videoUri = intent.getData();  
+        Log.e(TAG, "videoUri：" + videoUri);  
         }  
